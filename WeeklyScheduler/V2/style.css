@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+fieldset {
+  width: 70vw;
+}
+
+.tabs-content {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 10px 30px;
+}
+
+input {
+  border: 3px solid black;
+  width: 100px;
+}
+
+select option {
+  width: auto;
+}
+
+.contentField {
+  display: none;
+}
+
+#active_day {
+  display: grid;
+}
+
+.summary-inner {
+  margin: 10px;
+}
+
+.summary-day {
+  font-weight: bold;
+}
+
+.summary-info {
+  padding-left: 20px;
+}
+
+.bottomButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.bottomButton {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.summary-txt {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding-right: 30%;
+  padding-top: 10px;
+}
